@@ -1,0 +1,102 @@
+body {
+  font-family: sans-serif;
+  position: relative;
+}
+div {
+  text-align: center;
+}
+#keyRepresent {
+  position: relative;
+  font-size: 118px;
+  text-align: center;
+}
+p {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.main {
+  width: 920px;
+  height: 280px;
+  background: linear-gradient(45deg, yellow, red);
+  border: 1px solid black;
+  position: relative;
+}
+.key {
+  position: relative;
+
+  border: 1px solid black;
+  width: 55px;
+  height: 47px;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 3px;
+  vertical-align: center;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+}
+.key:hover {
+  background-color: white;
+  color: black;
+}
+.backspace {
+  width: 90px;
+}
+.tab {
+  width: 75px;
+  font-size: 12px;
+}
+.backslash {
+  width: 70px;
+}
+.caps {
+  width: 90px;
+  font-size: 12px;
+}
+.enter {
+  width: 118px;
+  font-size: 12px;
+}
+.leftshift {
+  width: 135px;
+  font-size: 12px;
+}
+.rightshift {
+  width: 135px;
+  font-size: 12px;
+}
+.leftctrl {
+  width: 97px;
+  font-size: 12px;
+}
+.window {
+  width: 65px;
+  font-style: italic;
+}
+.leftalt {
+  width: 60px;
+  font-size: 12px;
+}
+.spacebar {
+  width: 426px;
+}
+.rightalt {
+  width: 60px;
+  font-size: 12px;
+}
+.fn {
+  width: 55px;
+  font-size: 12px;
+}
+.rightctrl {
+  width: 97px;
+  font-size: 12px;
+}
+.highlight {
+  background-color: white;
+  color: black;
+}
